@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Shop</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background-color: #e0e0e0;
+        color: #333;
+      }
+
+      header {
+        background-color: #ffd700;
+        padding: 15px 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 24px;
+        color: #333;
+      }
+
+      nav a {
+        margin-left: 20px;
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+      }
+
+      nav a:hover {
+        color: #000;
+      }
+
+      section {
+        padding: 60px 30px;
+      }
+
+      .market-items {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        max-width: 900px;
+        margin: auto;
+      }
+
+      .item {
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 8px rgba(0,0,0,0.1);
+        text-align: center;
+      }
+      .item img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 8px;
+      }
+
+      footer {
+        background: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <header>
+      <h1>BongSaoLo Online Cat Shop</h1>
+      <nav>
+        <a href="shop.html">Market</a>
+        <a href="about.html">About Us</a>
+        <a href="login.html">Log In</a>
+        <a href="signup.html">Sign Up</a>
+      </nav>
+    </header>
+
+    <section id="market">
+      <h2>Market</h2>
+      <div class="market-items">
+        <div class="item"><img src="belgian.jpg" alt="Bengal Cat"><p><strong>Bengal Cat - $400</strong></p></div>
+        <div class="item"><img src="persian.jpg" alt="Persian Cat"><p><strong>Persian Cat - $550</strong></p></div>
+        <div class="item"><img src="siamese.jpg" alt="Siamese Cat"><p><strong>Siamese Cat - $700</strong></p></div>
+        <div class="item"><img src="turkish.jpg" alt="Turkish Cat"><p><strong>Turkish Cat - $550</strong></p></div>
+	<div class="item"><img src="chartreux.jpg" alt="Chartreux Cat"><p><strong>Chartreux Cat - $550</strong></p></div>
+	<div class="item"><img src="laperm.jpg" alt="LaPerm Cat"><p><strong>LaPerm Cat - $550</strong></p></div>
+	<div class="item"><img src="minskin.jpg" alt="Minskin Cat"><p><strong>Minskin Cat - $550</strong></p></div>
+	<div class="item"><img src="munchkin.jpg" alt="Munchkin Cat"><p><strong>Munchkin Cat Cat - $530</strong></p></div>
+	<div class="item"><img src="munchkingrey.jpg" alt="Munchkin Grey Cat"><p><strong>Munchkin Grey Cat - $430</strong></p></div>
+	<div class="item"><img src="kurilian.jpg" alt="Kurilian Bobtail Cat"><p><strong>Kurilian Bobtail Cat - $500</strong></p></div>
+	<div class="item"><img src="devon.jpg" alt="Devon Cat"><p><strong>Devon Cat - $600</strong></p></div>
+	<div class="item"><img src="sokoke.jpg" alt="Sokoke Cat"><p><strong>Sokoke Cat - $750</strong></p></div>
+	<div class="item"><img src="tinydevon.jpg" alt="Tiny Devon Cat"><p><strong>Tiny Devon Cat - $350</strong></p></div>
+	<div class="item"><img src="sphynx.jpg" alt="Sphynx Cat"><p><strong>Sphynx Cat - $500</strong></p></div>
+	<div class="item"><img src="scottish.jpg" alt="Scottish Fold Cat"><p><strong>Scottish Fold Cat - $650</strong></p></div>
+	<div class="item"><img src="maine.jpg" alt="Maine Coon Cat"><p><strong>Maine Coon Cat - $500</strong></p></div>
+	<div class="item"><img src="ragdoll.jpg" alt="Ragdoll Cat"><p><strong>Ragdoll Cat - $500</strong></p></div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 BongSaoLo Shop. All rights reserved.</p>
+    </footer>
+
+  </body>
+</html>
